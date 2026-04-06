@@ -53,16 +53,26 @@ gdjs.MainCode.GDrewardObjects1= [];
 gdjs.MainCode.GDrewardObjects2= [];
 gdjs.MainCode.GDoverlayObjects1= [];
 gdjs.MainCode.GDoverlayObjects2= [];
+gdjs.MainCode.GDlost_9595bgObjects1= [];
+gdjs.MainCode.GDlost_9595bgObjects2= [];
+gdjs.MainCode.GDlost_9595titleObjects1= [];
+gdjs.MainCode.GDlost_9595titleObjects2= [];
+gdjs.MainCode.GDlost_9595smileObjects1= [];
+gdjs.MainCode.GDlost_9595smileObjects2= [];
+gdjs.MainCode.GDlost_9595btObjects1= [];
+gdjs.MainCode.GDlost_9595btObjects2= [];
+gdjs.MainCode.GDcoin2Objects1= [];
+gdjs.MainCode.GDcoin2Objects2= [];
 
 
 gdjs.MainCode.mapOfGDgdjs_9546MainCode_9546GDPlay_95959595ButtonObjects1Objects = Hashtable.newFrom({"Play_Button": gdjs.MainCode.GDPlay_9595ButtonObjects1});
-gdjs.MainCode.asyncCallback16378980 = function (runtimeScene, asyncObjectsList) {
+gdjs.MainCode.asyncCallback18437244 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.MainCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Monitor", false);
 }
 gdjs.MainCode.localVariables.length = 0;
 }
-gdjs.MainCode.idToCallbackMap.set(16378980, gdjs.MainCode.asyncCallback16378980);
+gdjs.MainCode.idToCallbackMap.set(18437244, gdjs.MainCode.asyncCallback18437244);
 gdjs.MainCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -72,7 +82,7 @@ gdjs.MainCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.MainCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.MainCode.asyncCallback16378980(runtimeScene, asyncObjectsList)), 16378980, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.MainCode.asyncCallback18437244(runtimeScene, asyncObjectsList)), 18437244, asyncObjectsList);
 }
 }
 
@@ -80,13 +90,13 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 
 };gdjs.MainCode.mapOfGDgdjs_9546MainCode_9546GDExit_95959595ButtonObjects1Objects = Hashtable.newFrom({"Exit_Button": gdjs.MainCode.GDExit_9595ButtonObjects1});
-gdjs.MainCode.asyncCallback16378084 = function (runtimeScene, asyncObjectsList) {
+gdjs.MainCode.asyncCallback18438564 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.MainCode.localVariables);
 {gdjs.evtTools.runtimeScene.stopGame(runtimeScene);
 }
 gdjs.MainCode.localVariables.length = 0;
 }
-gdjs.MainCode.idToCallbackMap.set(16378084, gdjs.MainCode.asyncCallback16378084);
+gdjs.MainCode.idToCallbackMap.set(18438564, gdjs.MainCode.asyncCallback18438564);
 gdjs.MainCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -96,7 +106,7 @@ gdjs.MainCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.MainCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.MainCode.asyncCallback16378084(runtimeScene, asyncObjectsList)), 16378084, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.MainCode.asyncCallback18438564(runtimeScene, asyncObjectsList)), 18438564, asyncObjectsList);
 }
 }
 
@@ -299,6 +309,16 @@ gdjs.MainCode.GDrewardObjects1.length = 0;
 gdjs.MainCode.GDrewardObjects2.length = 0;
 gdjs.MainCode.GDoverlayObjects1.length = 0;
 gdjs.MainCode.GDoverlayObjects2.length = 0;
+gdjs.MainCode.GDlost_9595bgObjects1.length = 0;
+gdjs.MainCode.GDlost_9595bgObjects2.length = 0;
+gdjs.MainCode.GDlost_9595titleObjects1.length = 0;
+gdjs.MainCode.GDlost_9595titleObjects2.length = 0;
+gdjs.MainCode.GDlost_9595smileObjects1.length = 0;
+gdjs.MainCode.GDlost_9595smileObjects2.length = 0;
+gdjs.MainCode.GDlost_9595btObjects1.length = 0;
+gdjs.MainCode.GDlost_9595btObjects2.length = 0;
+gdjs.MainCode.GDcoin2Objects1.length = 0;
+gdjs.MainCode.GDcoin2Objects2.length = 0;
 
 gdjs.MainCode.eventsList2(runtimeScene);
 gdjs.MainCode.GDMain_9595BackgroundObjects1.length = 0;
@@ -349,6 +369,16 @@ gdjs.MainCode.GDrewardObjects1.length = 0;
 gdjs.MainCode.GDrewardObjects2.length = 0;
 gdjs.MainCode.GDoverlayObjects1.length = 0;
 gdjs.MainCode.GDoverlayObjects2.length = 0;
+gdjs.MainCode.GDlost_9595bgObjects1.length = 0;
+gdjs.MainCode.GDlost_9595bgObjects2.length = 0;
+gdjs.MainCode.GDlost_9595titleObjects1.length = 0;
+gdjs.MainCode.GDlost_9595titleObjects2.length = 0;
+gdjs.MainCode.GDlost_9595smileObjects1.length = 0;
+gdjs.MainCode.GDlost_9595smileObjects2.length = 0;
+gdjs.MainCode.GDlost_9595btObjects1.length = 0;
+gdjs.MainCode.GDlost_9595btObjects2.length = 0;
+gdjs.MainCode.GDcoin2Objects1.length = 0;
+gdjs.MainCode.GDcoin2Objects2.length = 0;
 
 
 return;
