@@ -26,22 +26,22 @@ gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState = class TextStyle
   }
 
   // Hot-reload:
-  updateFromBehaviorData(oldBehaviorData, newBehaviorData) {
+  applyBehaviorOverriding(behaviorOverriding) {
     
-    if (oldBehaviorData.ShouldEnableOutlineOnHover !== newBehaviorData.ShouldEnableOutlineOnHover)
-      this._behaviorData.ShouldEnableOutlineOnHover = newBehaviorData.ShouldEnableOutlineOnHover;
-    if (oldBehaviorData.HoverColor !== newBehaviorData.HoverColor)
-      this._behaviorData.HoverColor = newBehaviorData.HoverColor;
-    if (oldBehaviorData.ShouldEnableShadowOnHover !== newBehaviorData.ShouldEnableShadowOnHover)
-      this._behaviorData.ShouldEnableShadowOnHover = newBehaviorData.ShouldEnableShadowOnHover;
-    if (oldBehaviorData.HoverFontSize !== newBehaviorData.HoverFontSize)
-      this._behaviorData.HoverFontSize = newBehaviorData.HoverFontSize;
-    if (oldBehaviorData.IsHovered !== newBehaviorData.IsHovered)
-      this._behaviorData.IsHovered = newBehaviorData.IsHovered;
-    if (oldBehaviorData.IdleFontSize !== newBehaviorData.IdleFontSize)
-      this._behaviorData.IdleFontSize = newBehaviorData.IdleFontSize;
-    if (oldBehaviorData.IdleColor !== newBehaviorData.IdleColor)
-      this._behaviorData.IdleColor = newBehaviorData.IdleColor;
+    if (behaviorOverriding.ShouldEnableOutlineOnHover !== undefined)
+      this._behaviorData.ShouldEnableOutlineOnHover = behaviorOverriding.ShouldEnableOutlineOnHover;
+    if (behaviorOverriding.HoverColor !== undefined)
+      this._behaviorData.HoverColor = behaviorOverriding.HoverColor;
+    if (behaviorOverriding.ShouldEnableShadowOnHover !== undefined)
+      this._behaviorData.ShouldEnableShadowOnHover = behaviorOverriding.ShouldEnableShadowOnHover;
+    if (behaviorOverriding.HoverFontSize !== undefined)
+      this._behaviorData.HoverFontSize = behaviorOverriding.HoverFontSize;
+    if (behaviorOverriding.IsHovered !== undefined)
+      this._behaviorData.IsHovered = behaviorOverriding.IsHovered;
+    if (behaviorOverriding.IdleFontSize !== undefined)
+      this._behaviorData.IdleFontSize = behaviorOverriding.IdleFontSize;
+    if (behaviorOverriding.IdleColor !== undefined)
+      this._behaviorData.IdleColor = behaviorOverriding.IdleColor;
 
     return true;
   }
@@ -550,7 +550,7 @@ gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorCo
 gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorContext.userFunc0xcf73d8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorContext.userFunc0x11e50d8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = eventsFunctionContext.getObjects("Object")[0];
@@ -562,7 +562,7 @@ gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorCo
 {
 
 
-gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorContext.userFunc0xcf73d8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorContext.userFunc0x11e50d8(runtimeScene, eventsFunctionContext);
 
 }
 

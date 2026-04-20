@@ -25,20 +25,20 @@ gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState = cla
   }
 
   // Hot-reload:
-  updateFromBehaviorData(oldBehaviorData, newBehaviorData) {
+  applyBehaviorOverriding(behaviorOverriding) {
     
-    if (oldBehaviorData.HoverColor !== newBehaviorData.HoverColor)
-      this._behaviorData.HoverColor = newBehaviorData.HoverColor;
-    if (oldBehaviorData.HoverPrefix !== newBehaviorData.HoverPrefix)
-      this._behaviorData.HoverPrefix = newBehaviorData.HoverPrefix;
-    if (oldBehaviorData.HoverSuffix !== newBehaviorData.HoverSuffix)
-      this._behaviorData.HoverSuffix = newBehaviorData.HoverSuffix;
-    if (oldBehaviorData.IsHovered !== newBehaviorData.IsHovered)
-      this._behaviorData.IsHovered = newBehaviorData.IsHovered;
-    if (oldBehaviorData.IdleText !== newBehaviorData.IdleText)
-      this._behaviorData.IdleText = newBehaviorData.IdleText;
-    if (oldBehaviorData.IdleColor !== newBehaviorData.IdleColor)
-      this._behaviorData.IdleColor = newBehaviorData.IdleColor;
+    if (behaviorOverriding.HoverColor !== undefined)
+      this._behaviorData.HoverColor = behaviorOverriding.HoverColor;
+    if (behaviorOverriding.HoverPrefix !== undefined)
+      this._behaviorData.HoverPrefix = behaviorOverriding.HoverPrefix;
+    if (behaviorOverriding.HoverSuffix !== undefined)
+      this._behaviorData.HoverSuffix = behaviorOverriding.HoverSuffix;
+    if (behaviorOverriding.IsHovered !== undefined)
+      this._behaviorData.IsHovered = behaviorOverriding.IsHovered;
+    if (behaviorOverriding.IdleText !== undefined)
+      this._behaviorData.IdleText = behaviorOverriding.IdleText;
+    if (behaviorOverriding.IdleColor !== undefined)
+      this._behaviorData.IdleColor = behaviorOverriding.IdleColor;
 
     return true;
   }
@@ -494,7 +494,7 @@ gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.proto
 gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0xd00b98 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0x104e718 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.BitmapTextRuntimeObject} */
 const object = eventsFunctionContext.getObjects("Object")[0];
@@ -506,7 +506,7 @@ gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.proto
 {
 
 
-gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0xd00b98(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0x104e718(runtimeScene, eventsFunctionContext);
 
 }
 
