@@ -1,12 +1,15 @@
 {
-  "name": "Designer Simulator Prototype",
-  "short_name": "Designer Simulator Prototype",
-  "id": "com.example.gamename",
+  "name": "Designer Simulator",
+  "short_name": "Designer Simulator",
+  "id": "com.example.designersimulator",
   "description": "",
-  "orientation": "any",
+  "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "black",
   "categories": ["games", "entertainment"],
-  "icons": []
+  "icons": [{
+        "src": "Game icon_512px.png",
+        "sizes": "512x512"
+      }]
 }
